@@ -1,4 +1,4 @@
-class CalculatorService {
+module.exports = class CalculatorService {
   constructor() {
     this.operand1 = document.querySelector("#operand1");
     this.operand2 = document.querySelector("#operand2");
@@ -17,4 +17,4 @@ class CalculatorService {
   onClick(cb) {
     this.tombolTambah.addEventListener("click", cb);
   }
-}
+};
