@@ -1,4 +1,4 @@
-import { cekInputValid } from "./utils/cekInputValid";
+import { cekInputValid } from "./utils/cekInputValid.js";
 
 export class AlertService {
   constructor() {
