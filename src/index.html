@@ -1,4 +1,4 @@
-<!DOCTYPE html>
+<!doctype html>
 <html lang="en">
   <head>
     <meta charset="utf-8" />
@@ -103,6 +103,14 @@
       crossorigin="anonymous"
     ></script>
 
-    <script src="./dist/main.js"></script>
+    <div id="app">
+      <app-header></app-header>
+      <note-form></note-form>
+      <note-list></note-list>
+    </div>
+
+    <div id="loading" style="display: none">
+      <img src="images/load.gif" alt="Loading..." />
+    </div>
   </body>
 </html>
