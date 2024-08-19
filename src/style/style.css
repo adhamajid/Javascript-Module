@@ -1,3 +1,93 @@
+#app {
+  max-width: 800px;
+  margin: 20px auto;
+  background-color: #f8f6e3;
+  padding: 20px;
+  border-radius: 8px;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+
+/* Header Styles */
+app-header {
+  display: block;
+  text-align: center;
+  margin-bottom: 20px;
+}
+
+app-header h1 {
+  font-size: 24px;
+  color: #333;
+}
+
+/* Note Form Styles */
+note-form {
+  margin-bottom: 20px;
+}
+
+note-form input[type="text"],
+note-form textarea {
+  width: 100%;
+  padding: 10px;
+  font-size: 16px;
+  border-radius: 6px;
+  border: 1px solid #ccc;
+  margin-bottom: 10px;
+}
+
+note-form button {
+  display: block;
+  width: 100%;
+  padding: 10px;
+  margin-top: 10px;
+  background-color: #6ad4dd;
+  color: #fff;
+  border: none;
+  border-radius: 6px;
+  cursor: pointer;
+}
+
+note-form button:hover {
+  background-color: #7aa2e3;
+}
+
+/* Note List Styles */
+#notesList {
+  display: grid;
+  grid-template-columns: repeat(auto-fill, minmax(300px, 1fr));
+  gap: 20px;
+  padding: 20px 0 20px 0;
+  overflow: auto;
+}
+
+.note-item {
+  background-color: #fff8ba;
+  padding: 20px;
+  border-radius: 6px;
+  border: 1px solid #ccc;
+  display: flex;
+  flex-direction: column;
+}
+
+.note-item p {
+  margin-bottom: 10px;
+}
+
+.note-item small {
+  color: #888;
+  font-size: 12px;
+}
+
+.note-item button {
+  margin-top: 10px;
+  padding: 5px 10px;
+  border-radius: 4px;
+  cursor: pointer;
+}
+
+.note-item .delete-button {
+  background-color: #fa7070;
+}
+
 #loading {
   position: fixed;
   top: 50%;
